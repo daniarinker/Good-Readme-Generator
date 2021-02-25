@@ -1,30 +1,28 @@
-# Good ReadME Generator
+# Good ReadMe Generator
+  
+  ## Table of Contents:
+  *[Description] (#Description)
+  *[Installation] (#Installation)
+  *[Usage] (#Usage)
+  *[License] (#License)
+  *[Contribution] (#Contribution)
+  *[Author] (#Author)
+  
+  ## Description:
+  This project is a command line interface using inquirer and nodeJS to help coders spend less time writing ReadMe.md files for their projects and spend more time coding. This will initialize a prompt of questions for the user/coder to fill out. Then, it will generate a ReadME.md file for the user to use on their git repos and for projects they make.
+  
+  ## Installation:
+  npm i
+  
+  ## Usage:
+  Utilize this for all projects to help write a good ReadMe document. 
+  
+  ## License:
+  MIT
 
-## Table of Contents:
-
-`_[Description] (#description)`
-`_[Installation] (#installation)`
-`_[Usage] (#usage)`
-`_[License] (#license)`
-`_[Contribution] (#contribution)`
-`_[Author] (#author)`
-
-## Description:
-
-This is a command line application ReadME Generator. The user will be prompted for questions after initializing, and after going through and answering the questions it will generate a ReadME document that you can use for your projects.
-
-## Installation:
-
-This project will require `npm i` to install dependencies. It utilizes Inquirer and Node.
-
-## Usage:
-
-Feel free to use this for help when as a user you would like to quickly write out a ReadME file, so that you can spend less time putting all the information together and more time coding.
-
-## License:
-
-MIT
-
-## Author:
-
-Dania Rinker
+  ## Contribution:
+  
+  
+  ## Author:
+  daniarinker
+  

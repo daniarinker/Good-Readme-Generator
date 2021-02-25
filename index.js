@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-generateMarkdown = require("./utils/generateMarkdown.js");
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
 //welcome text
 console.log("WELCOME TO YOUR GOOD READ ME GENERATOR");
@@ -8,7 +8,7 @@ console.log(
   "Please answer the following questions to help generate a good readme:"
 );
 
-// array of questions for user
+// questions for user to answer to generate readme
 const questions = [
   {
     type: "input",
@@ -86,10 +86,18 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, (err) => {
+    if (err) throw err;
+  });
+}
 
 // function to initialize program
-function init(questions) {}
+function generate() {
+  inquirer.prompt(questions).then(function (response) {
+    writeToFile("README.md", generateMarkdown(response));
+  });
+}
 
 // function call to initialize program
-init();
+generate();
