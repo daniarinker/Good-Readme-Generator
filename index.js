@@ -8,7 +8,7 @@ console.log(
   "Please answer the following questions to help generate a good readme:"
 );
 
-// questions for user to answer to generate readme
+// setting the questions for user to answer to generate readme
 const questions = [
   {
     type: "input",
