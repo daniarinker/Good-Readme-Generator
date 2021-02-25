@@ -1,2 +1,0 @@
-# Good Readme Generator
-<hr>
